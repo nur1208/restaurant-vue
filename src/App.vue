@@ -1,14 +1,22 @@
 <template>
-  <div><app-navbar /></div>
+  <div>
+    <app-navbar />
+    <app-header />
+    <about-us />
+    <special-menu />
+  </div>
   <!-- <div>something</div> -->
 </template>
 
 <script>
 import "./index.css";
-import { Navbar } from "./components";
+import { Navbar, Header, AboutUs, SpecialMenu } from "./components";
 export default {
   components: {
-    "app-navbar": Navbar
+    "app-navbar": Navbar,
+    "app-header": Header,
+    "about-us": AboutUs,
+    SpecialMenu
   }
 };
 </script>

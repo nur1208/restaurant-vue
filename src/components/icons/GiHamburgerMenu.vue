@@ -1,0 +1,21 @@
+<template>
+  <svg
+    stroke="currentColor"
+    fill="currentColor"
+    stroke-width="0"
+    viewBox="0 0 512 512"
+    color="#fff"
+    font-size="27"
+    height="1em"
+    width="1em"
+    style="color: rgb(255, 255, 255);"
+  >
+    <path
+      d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"
+    ></path>
+  </svg>
+</template>
+<script>
+export default {};
+</script>
+<style></style>

@@ -30,18 +30,20 @@
       </a>
     </div>
     <div class="app__navbar-smallscreen">
-      <GiHamburgerMenu
-        color="#fff"
-        fontSize="{27}"
-        @click="toggleMenu = !toggleMenu"
-      />
-      {toggleMenu && (
-      <div class="app__navbar-smallscreen_overlay flex__center slide-bottom">
-        <MdOutlineRestaurantMenu
+      <span @click="toggleMenu = !toggleMenu">
+        <GiHamburgerMenu
+          color="#fff"
           fontSize="{27}"
-          class="overlay__close"
           @click="toggleMenu = !toggleMenu"
         />
+      </span>
+      <div
+        v-if="toggleMenu"
+        class="app__navbar-smallscreen_overlay flex__center slide-bottom"
+      >
+        <span @click="toggleMenu = !toggleMenu">
+          <MdOutlineRestaurantMenu fontSize="{27}" class="overlay__close" />
+        </span>
         <ul class="app__navbar-smallscreen_links">
           <li>
             <a href="#home" @click="toggleMenu = !toggleMenu">
@@ -70,13 +72,20 @@
           </li>
         </ul>
       </div>
-      )}
     </div>
   </nav>
 </template>
 <script>
 import { images } from "../constants";
-export default { data: () => ({ toggleMenu: false, images }) };
+import { GiHamburgerMenu, MdOutlineRestaurantMenu } from "./icons";
+
+export default {
+  data: () => ({ toggleMenu: true, images }),
+  components: {
+    GiHamburgerMenu: GiHamburgerMenu,
+    MdOutlineRestaurantMenu: MdOutlineRestaurantMenu
+  }
+};
 </script>
 <style>
 .app__navbar {
