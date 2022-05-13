@@ -5,6 +5,21 @@ import G from "../assets/G.png";
 import knife from "../assets/knife.png";
 import bg from "../assets/bg.png";
 import menu from "../assets/menu.png";
-const images = { gericht, spoon, welcome, G, knife, bg, menu };
+import chef from "../assets/chef.png";
+import quote from "../assets/quote.png";
+import sign from "../assets/sign.png";
+
+const images = {
+  sign,
+  quote,
+  chef,
+  gericht,
+  spoon,
+  welcome,
+  G,
+  knife,
+  bg,
+  menu
+};
 
 export default images;

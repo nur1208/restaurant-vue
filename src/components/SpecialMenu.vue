@@ -1,7 +1,7 @@
 <template>
   <div class="app__specialMenu flex__center section__padding" id="menu">
     <div class="app__specialMenu-title">
-      <SubHeading title="Menu that fits your palatte" />
+      <sub-heading title="Menu that fits your palatte" />
       <h1 class="headtext__cormorant">
         Today&apos;s Special
       </h1>
@@ -50,15 +50,15 @@
     </div>
   </div>
 </template>
+
 <script>
 import MenuItemVue from "./MenuItem.vue";
 
-import SubHeadingVue from "./SubHeading.vue";
 import { images, data } from "../constants";
 
 export default {
   data: () => ({ images, cocktails: data.cocktails, wines: data.wines }),
-  components: { "sub-heading": SubHeadingVue, "menu-item": MenuItemVue }
+  components: { "menu-item": MenuItemVue }
 };
 </script>
 <style>

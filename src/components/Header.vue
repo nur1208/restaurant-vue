@@ -19,14 +19,10 @@
   </div>
 </template>
 <script>
-import SubHeadingVue from "./SubHeading.vue";
-// import { SubHeadingVue } from ".";
-// // import { SubHeadingVue } from "./index.js";
 import { images } from "../constants";
 
 export default {
-  data: () => ({ images }),
-  components: { "sub-heading": SubHeadingVue }
+  data: () => ({ images })
 };
 </script>
 <style>

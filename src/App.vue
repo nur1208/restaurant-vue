@@ -4,19 +4,30 @@
     <app-header />
     <about-us />
     <special-menu />
+    <chef />
+    <intro />
   </div>
   <!-- <div>something</div> -->
 </template>
 
 <script>
 import "./index.css";
-import { Navbar, Header, AboutUs, SpecialMenu } from "./components";
+import {
+  Navbar,
+  Header,
+  AboutUs,
+  SpecialMenu,
+  Chef,
+  Intro
+} from "./components";
 export default {
   components: {
     "app-navbar": Navbar,
     "app-header": Header,
     "about-us": AboutUs,
-    SpecialMenu
+    SpecialMenu,
+    Chef,
+    Intro
   }
 };
 </script>

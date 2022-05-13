@@ -1,2 +1,3 @@
 - {DONE} creating Navbar component
 - {DONE} creating header and aboutUs components and custom bg directive
+- {DONE} creating Chef and Intro components and making SpecialMenu global component
