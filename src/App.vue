@@ -7,6 +7,7 @@
     <chef />
     <intro />
     <laurels />
+    <gallery />
   </div>
   <!-- <div>something</div> -->
 </template>
@@ -20,7 +21,8 @@ import {
   SpecialMenu,
   Chef,
   Intro,
-  Laurels
+  Laurels,
+  Gallery
 } from "./components";
 export default {
   components: {
@@ -30,7 +32,8 @@ export default {
     SpecialMenu,
     Chef,
     Intro,
-    Laurels
+    Laurels,
+    Gallery
   }
 };
 </script>
