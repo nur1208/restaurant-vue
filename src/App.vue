@@ -6,6 +6,7 @@
     <special-menu />
     <chef />
     <intro />
+    <laurels />
   </div>
   <!-- <div>something</div> -->
 </template>
@@ -18,7 +19,8 @@ import {
   AboutUs,
   SpecialMenu,
   Chef,
-  Intro
+  Intro,
+  Laurels
 } from "./components";
 export default {
   components: {
@@ -27,7 +29,8 @@ export default {
     "about-us": AboutUs,
     SpecialMenu,
     Chef,
-    Intro
+    Intro,
+    Laurels
   }
 };
 </script>
