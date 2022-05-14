@@ -5,7 +5,7 @@
       <p class="p__cormorant" :style="{ color: '#DCCA87' }">
         {{ award.title }}
       </p>
-      <p class="p__opensans">{award.subtitle}</p>
+      <p class="p__opensans">{{ award.subtitle }}</p>
     </div>
   </div>
 </template>
