@@ -4,3 +4,4 @@
 - {DONE} creating laurels component 
 - {DONE} fixing { award.subtitle } error
 - {DONE} creating Gallery component 
+- {DONE} creating footer components

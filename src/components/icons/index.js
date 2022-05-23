@@ -4,4 +4,7 @@ export { default as BsFillPlayFill } from "./BsFillPlayFill.vue";
 export { default as BsPauseFill } from "./BsPauseFill.vue";
 export { default as BsInstagram } from "./BsInstagram.vue";
 export { default as BsArrowLeftShort } from "./BsArrowLeftShort.vue";
+export { default as FiFacebook } from "./FiFacebook.vue";
+export { default as FiTwitter } from "./FiTwitter.vue";
+export { default as FiInstagram } from "./FiInstagram.vue";
 export { default as BsArrowRightShort } from "./BsArrowRightShort.vue";

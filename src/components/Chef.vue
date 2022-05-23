@@ -32,7 +32,6 @@
   </div>
 </template>
 <script>
-
 import { images } from "../constants";
 export default {
   data: () => ({ images })

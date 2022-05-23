@@ -8,6 +8,8 @@
     <intro />
     <laurels />
     <gallery />
+    <find-us />
+    <app-footer />
   </div>
   <!-- <div>something</div> -->
 </template>
@@ -22,7 +24,9 @@ import {
   Chef,
   Intro,
   Laurels,
-  Gallery
+  Gallery,
+  FindUs,
+  Footer
 } from "./components";
 export default {
   components: {
@@ -33,7 +37,9 @@ export default {
     Chef,
     Intro,
     Laurels,
-    Gallery
+    Gallery,
+    FindUs,
+    "app-footer": Footer
   }
 };
 </script>
