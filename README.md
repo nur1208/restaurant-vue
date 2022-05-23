@@ -1,4 +1,9 @@
+
 # restaurant-vue
+# Restaurant Landing Page with React
+### [Live Site](https://restaurant-vue-six.vercel.app/)
+
+![Restaurant Landing Page](https://i.ibb.co/5jxBKpw/image.png)
 
 > A Vue.js project
 
